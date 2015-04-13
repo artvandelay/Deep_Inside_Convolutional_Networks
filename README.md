@@ -39,7 +39,7 @@ Here we simply visuzlize the gradients at different layers
 ![Cat](/results/ps3part3_fc8.png)
 
 ### Instructions:
-- Have [Caffe](https://github.com/BVLC/caffe)-*rc2* tag
+- Install [Caffe](https://github.com/BVLC/caffe)-*rc2* tag
 - Copy the deploy_fc8.prototxt file to /models/bvlc_reference_caffenet/
 - Copy all the py files to /examples/
 - the just run `python visualize.py`
