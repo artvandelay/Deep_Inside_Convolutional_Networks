@@ -60,8 +60,7 @@ diff = bw['data']
 
 
 # Find the saliency map as described in the paper. Normalize the map and assign it to variabe "saliency"
-
-diff -= diff.min()
+diff = np.abs(diff)
 diff /= diff.max()
 diff_sq = np.squeeze(diff)
 saliency = np.amax(diff_sq,axis=0)
