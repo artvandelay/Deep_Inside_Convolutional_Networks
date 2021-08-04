@@ -1,4 +1,4 @@
-# Deep_Inside_Convolutional_Networks
+# Deep Inside Convolutional Networks
 This is a caffe implementation to visualize the learnt model.
 
 Part of a class project at [Georgia Tech](www.cc.gatech.edu/~zk15/deep_learning_course.html)   
